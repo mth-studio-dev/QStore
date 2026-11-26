@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#18181b" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>QStore — Scan • Store • Generate</title>
+  <meta name="description"
+    content="QStore by mth-studio: a fast, clean Android QR code scanner, organized store, generator, and cloud sync app." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav-wrap">
+    <nav class="container nav">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="QStore icon" class="brand-icon" width="36" height="36" />
+        <span>QStore</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#categories">Categories</a>
+        <a href="#download">Download</a>
+        <a href="#privacy">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="pill">Android 7.0+ • by mth-studio</span>
+          <h1>Scan, Store, and Generate QR Codes Effortlessly.</h1>
+          <p class="subtitle">
+            QStore keeps every Wi-Fi, contact, link, and note QR code organized in one place — with instant brightness
+            boost, one-tap actions, and optional Google Cloud Sync.
+          </p>
+          <div class="cta-row">
+            <a href="#download" class="btn btn-primary">
+              Download QStore APK
+            </a>
+            <a href="#features" class="btn btn-ghost">Explore Features</a>
+          </div>
+          <p class="meta-note">Free • Works offline in Guest Mode • Real-time sync with Google Sign-In</p>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="phone-frame">
+            <div class="phone-top">QStore</div>
+            <div class="qr-preview">
+              <img src="logo.png" alt="QStore app icon" class="hero-logo" width="144" height="144" />
+            </div>
+            <div class="chip-row">
+              <span>Wi-Fi</span>
+              <span>Contact</span>
+              <span>Link</span>
+            </div>
+            <div class="phone-hint">Tap to view • Auto-brightness boost</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Everything you need for QR codes</h2>
+        <p class="section-sub">Built with Jetpack Compose, CameraX, ML Kit, and Firebase for speed and reliability.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Smart QR Scanner</h3>
+            <p>Scan live with your camera or pick an image from your gallery. QStore auto-detects the category and
+              suggests a title before saving.</p>
+          </article>
+          <article class="card">
+            <h3>Organized Store</h3>
+            <p>Search and filter saved QR codes by category. Open any entry with automatic screen brightness boost so
+              scanners read it fast.</p>
+          </article>
+          <article class="card">
+            <h3>7-Category Generator</h3>
+            <p>Create clean QR codes using dedicated forms for Wi-Fi, Contacts, URLs, Email, Phone/SMS, Location, or
+              plain Text.</p>
+          </article>
+          <article class="card">
+            <h3>One-Tap Actions</h3>
+            <p>Connect directly to Wi-Fi networks, save contacts to your phone, copy fields, share as PNG, or download
+              to your gallery.</p>
+          </article>
+          <article class="card">
+            <h3>Cloud Sync &amp; Guest Mode</h3>
+            <p>Sign in with Google to sync QR codes in real time across devices, or stay in Guest Mode to keep data on
+              your device only.</p>
+          </article>
+          <article class="card">
+            <h3>JSON Backup &amp; Restore</h3>
+            <p>Export your entire QR library as a lightweight <code>.json</code> file anytime and import it back
+              whenever you need.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="section section-alt">
+      <div class="container center">
+        <h2>7 Supported QR Categories</h2>
+        <p class="section-sub">Every QR code is parsed and displayed with clean, readable fields.</p>
+        <div class="category-list">
+          <span class="cat-pill">Wi-Fi</span>
+          <span class="cat-pill">Contact (vCard)</span>
+          <span class="cat-pill">Website Link</span>
+          <span class="cat-pill">Email</span>
+          <span class="cat-pill">Phone / SMS</span>
+          <span class="cat-pill">Location</span>
+          <span class="cat-pill">Plain Text</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="container download-box">
+        <div>
+          <h2>Download QStore</h2>
+          <p class="section-sub">Requires Android 7.0 (API 24) or higher.</p>
+          <ol class="steps">
+            <li>Download the <code>.apk</code> file from Google Drive.</li>
+            <li>Open the file on your Android device.</li>
+            <li>Allow <strong>Install from unknown sources</strong> if prompted, then tap <strong>Install</strong>.</li>
+          </ol>
+        </div>
+        <div class="download-action">
+          <a href="https://drive.google.com/uc?export=download&id=1H027_poSJheaNbhSKi--9qvvq3GeuG7k"
+            class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+            Download APK (Google Drive)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section section-alt">
+      <div class="container privacy-box">
+        <h2>Privacy Policy</h2>
+        <p>
+          QStore respects your privacy. Camera access is used strictly on-device to scan QR codes and no photos or
+          videos are uploaded.
+          If you use Guest Mode, your QR codes stay only on your device. If you choose to sign in with Google, your
+          email address, user ID,
+          and saved QR codes are stored securely in Firebase solely to sync your library across your devices.
+        </p>
+      </div>
+    </section>
+
+    <section id="copyright" class="section">
+      <div class="container privacy-box">
+        <h2>Copyright &amp; Ownership</h2>
+        <p>
+          © 2026 <strong>mth-studio</strong>. QStore, including its name, app icon, user interface, and source code, is
+          the intellectual property of mth-studio.
+          All rights reserved. Unauthorized copying, redistribution, modification, or commercial resale of this
+          application or its assets without prior written permission is prohibited.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 mth-studio. All rights reserved.</span>
+      <span>QStore for Android</span>
+    </div>
+  </footer>
+
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+    <a href="#features" class="mobile-nav-item">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="7" height="7" rx="1.5" />
+        <rect x="14" y="3" width="7" height="7" rx="1.5" />
+        <rect x="3" y="14" width="7" height="7" rx="1.5" />
+        <rect x="14" y="14" width="7" height="7" rx="1.5" />
+      </svg>
+      <span>Features</span>
+    </a>
+    <a href="#categories" class="mobile-nav-item">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 7h16M4 12h16M4 17h10" />
+      </svg>
+      <span>Categories</span>
+    </a>
+    <a href="#download" class="mobile-nav-item mobile-nav-primary">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" />
+      </svg>
+      <span>Download</span>
+    </a>
+    <a href="#privacy" class="mobile-nav-item">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z" />
+      </svg>
+      <span>Privacy</span>
+    </a>
+  </nav>
+</body>
+
+</html>
